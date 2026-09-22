@@ -1,5 +1,6 @@
 📊 2026 Global & Regional LPG Supply Chain AnalysisA data-driven strategic evaluation of LPG distribution bottlenecks, regional pricing spikes, and import dependencies across major Indian distribution hubs (Chennai, Mumbai, Delhi, Kolkata, Patna).  
 
+
 📌 Executive Summary
 During recent market shifts, regional LPG supply chains experienced severe disruption, pushing peak cylinder prices to ₹1,398 in major metropolitan areas. This project analyzes 50,000+ transactional supply log entries to pinpoint the root causes of regional supply delays and evaluate mitigation strategies. 
 Key FindingsSupply Instability: Over 35% of tracked supply instances experienced delays (27%) or critical shortages (9%). 
@@ -7,12 +8,14 @@ Regional Vulnerability: Chennai led the crisis count with 70 distinct bottled su
 Price Volatility: Critical alerts drove consumer prices 15–20% above regional baselines, ranging from a floor price of ₹863 to peaks of ₹1,398.  
 Import Dependency: Logistics lags from primary import partners (Qatar, Argentina, USA) created ripple effects in domestic refill availability. 
 🛠️ Data Architecture & MethodologyThe underlying dataset models 50,000 supply chain instances scaled from real-world regional log metrics across domestic and commercial sectors. 
+
 Plaintext📁 Data Pipeline & Analytics Architecture
 ├── 📄 Data Ingestion (Power Query / CSV Logs)
 ├── 🔄 Data Transformation & Normalization (50k Rows)
 ├── 🧮 KPI Calculations (SUMIFS, XLOOKUP, Dynamic Arrays)
 ├── 📊 Pivot Tables & Scenario Modeling
 └── 📈 Dynamic Excel Executive Dashboard
+
 
 Key Metrics TrackedMetric FieldDescriptionSource MappingRegionMajor hub distribution points (Chennai, Mumbai, Delhi, etc.)   Geographical logsCylinder TypeCommercial vs. Domestic supply categories   Market segmentationStatusNormal, Delayed, or Shortage   Operational alert levelImport OriginQatar, Argentina, USA   Global supply partnersPrice (₹)Final consumer price per cylinder   Market transaction rates💡 Proposed Solution: 3-Pillar Stabilization FrameworkTo eliminate critical shortages and limit price volatility, the analysis proposes three core operational pivots:   Diversified Buffer Stocks: Expand localized storage capacity in high-risk hubs (Chennai & Mumbai) to absorb import delays.   Price Capping & Stabilization Funds: Deploy alert-triggered price shields to limit consumer cost spikes during emergency windows.   Import Source Optimization: Prioritize primary imports from lower-cost partners (Qatar) while utilizing high-speed routes (USA) strictly for emergency backstops.  
 🎯 Strategic Goals 
