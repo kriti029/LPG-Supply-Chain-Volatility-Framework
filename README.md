@@ -8,5 +8,8 @@ Key Metrics TrackedMetric FieldDescriptionSource MappingRegionMajor hub distribu
   • Crisis Alerts: High      ───►  • Reduction of Chennai Crisis Count by 50%[cite: 1]
   • Avg Price: High Vol.     ───►  • Market Price Stabilized at/below ₹1,100[cite: 1]
   • Critical Status Alerts   ───►  • Reduced to 0 by Q3 2026[cite: 1]
-🚀 How to Explore the ModelDownload the Repository:Bashgit clone https://github.com/your-username/lpg-supplychain-analysis.git
-Open the Excel Workbook:Navigate to the Dashboard tab to interact with dynamic Slicers by Region, Status, and Import Partner.Inspect the Data_Model tab to view calculated columns and measure definitions.
+## 🔑 Key Takeaways: 
+* **Severe Operational Disruption:** Over **35% of tracked supply instances** face severe delays (27%) or critical shortages (9%)[cite: 1], driving consumer price spikes up to **₹1,398 per cylinder**[cite: 1].
+* **Regional Bottlenecks:** Vulnerability is concentrated geographically, with **Chennai leading in crisis counts (70 events)**, followed by **Mumbai and Patna (30 events each)**[cite: 1].
+* **Root Cause Lags:** Volatility stems directly from global import timing mismatches—primarily from high-cost/delayed import partners like Argentina and Qatar—causing localized stockouts[cite: 1].
+* **Actionable Solution:** Achieving market stability requires expanding regional buffer storage in peak-crisis hubs, deploying alert-based price capping mechanisms, and prioritizing lower-cost import channels (Qatar) over high-cost emergency backstops. 
