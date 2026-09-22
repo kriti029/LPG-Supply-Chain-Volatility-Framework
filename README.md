@@ -2,7 +2,7 @@
 
 
 📌 Executive Summary
-During recent market shifts, regional LPG supply chains experienced severe disruption, pushing peak cylinder prices to ₹1,398 in major metropolitan areas. This project analyzes 50,000+ transactional supply log entries to pinpoint the root causes of regional supply delays and evaluate mitigation strategies. 
+During recent market shifts, regional LPG supply chains experienced severe disruption, pushing peak cylinder prices to ₹1,398 in major metropolitan areas. This project analyzes 15,000+ transactional supply log entries to pinpoint the root causes of regional supply delays and evaluate mitigation strategies. 
 Key FindingsSupply Instability: Over 35% of tracked supply instances experienced delays (27%) or critical shortages (9%). 
 Regional Vulnerability: Chennai led the crisis count with 70 distinct bottled supply bottleneck events, followed by Mumbai and Patna with 30 events each.  
 Price Volatility: Critical alerts drove consumer prices 15–20% above regional baselines, ranging from a floor price of ₹863 to peaks of ₹1,398.  
