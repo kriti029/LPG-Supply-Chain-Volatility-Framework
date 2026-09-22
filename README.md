@@ -1,7 +1,7 @@
 # 📊 2026 LPG Supply Chain & Market Volatility Analysis
 
 ## 📌 Project Overview
-A comprehensive strategic evaluation analyzing supply chain bottlenecks, regional refill delays, and price spikes across major Indian metropolitan hubs (Chennai, Mumbai, Delhi, Kolkata, Patna). The model evaluates **50,000 supply log entries** (scaled from a core sample of operational data) to pinpoint root vulnerabilities and propose an actionable stabilization framework.
+A comprehensive strategic evaluation analyzing supply chain bottlenecks, regional refill delays, and price spikes across major Indian metropolitan hubs (Chennai, Mumbai, Delhi, Kolkata, Patna). The model evaluates **10,000 supply log entries** (scaled from a core sample of operational data) to pinpoint root vulnerabilities and propose an actionable stabilization framework.
 
 > **Note on Tooling:** AI tools (Gemini / ChatGPT) were leveraged throughout the development lifecycle for synthetic data scaling, code generation for data generation scripts, and structural optimization of analytical insights.
 
