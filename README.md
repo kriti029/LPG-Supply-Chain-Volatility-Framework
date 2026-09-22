@@ -1,30 +1,79 @@
-📊 2026 Global & Regional LPG Supply Chain AnalysisA data-driven strategic evaluation of LPG distribution bottlenecks, regional pricing spikes, and import dependencies across major Indian distribution hubs (Chennai, Mumbai, Delhi, Kolkata, Patna).  
+# 📊 2026 LPG Supply Chain & Market Volatility Analysis
+
+## 📌 Project Overview
+A comprehensive strategic evaluation analyzing supply chain bottlenecks, regional refill delays, and price spikes across major Indian metropolitan hubs (Chennai, Mumbai, Delhi, Kolkata, Patna). The model evaluates **50,000 supply log entries** (scaled from a core sample of operational data) to pinpoint root vulnerabilities and propose an actionable stabilization framework.
+
+> **Note on Tooling:** AI tools (Gemini / ChatGPT) were leveraged throughout the development lifecycle for synthetic data scaling, code generation for data generation scripts, and structural optimization of analytical insights.
+
+---
+
+## 🛠️ Tech Stack & Skills
+
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Data Analytics** | Microsoft Excel (Power Query, Dynamic Arrays, Pivot Tables, Advanced Formulas) |
+| **AI / Automation** | AI-assisted synthetic data scaling (Python Pandas generation scripts) & logic validation |
+| **Data Modeling** | Scenario Analysis, Import Source Optimization, Supply Status Mapping |
+| **Domain** | Supply Chain Management, Logistics Operations, Pricing Strategy |
+
+---
+
+## 📈 Executive Summary & Key Metrics
+
+Over **35% of tracked supply instances** face operational friction (27% delays, 9% critical shortages). Strategic analysis reveals that regional price spikes—peaking at **₹1,398**—are strongly correlated with global import source timing lags rather than simple product scarcity.
+
+### Core Dataset Summary
+| Metric Category | Values / Observations |
+| :--- | :--- |
+| **Total Log Volume** | 50,000 Transacted Records (Scaled) |
+| **Price Floor / Peak** | ₹863 (Floor) — ₹1,398 (Peak)[cite: 1] |
+| **Key Regional Hubs** | Chennai, Mumbai, Delhi, Kolkata, Patna[cite: 1] |
+| **Import Origin Partners** | Qatar, Argentina, USA[cite: 1] |
+| **Status Classifications** | Normal (65%), Delayed (27%), Shortage (9%)[cite: 1] |
+
+---
+
+## 🔍 Regional & Sectoral Breakdown
+
+### 1. Regional Crisis Distribution
+| Region | Regional Crisis Count | Avg Price (₹) | Impact Level |
+| :--- | :--- | :--- | :--- |
+| **Chennai** | 70 | ₹1,078.43 | Critical |
+| **Mumbai** | 30 | ₹1,154.97 | High |
+| **Patna** | 30 | ₹1,141.13 | High |
+| **Kolkata** | 20 | ₹1,127.28 | Moderate |
+| **Delhi** | 20 | ₹1,126.21 | Moderate |
+
+---
+
+### 2. Supply Status by Cylinder Sector
+| Cylinder Type | Delayed Instances | Normal Instances | Shortage Instances | Total Tracked |
+| :--- | :--- | :--- | :--- | :--- |
+| **Commercial** | 26 | 72 | 9 | 107 |
+| **Domestic** | 28 | 57 | 8 | 93 |
+| **Grand Total** | **54** | **129** | **17** | **200** |
+
+---
+
+## 🔑 Key Takeaways
+
+* **Severe Disruption:** Over **35% of supply instances** suffer from delays or severe stockouts[cite: 1], causing 15–20% localized price hikes above baselines[cite: 1].
+* **Localized Vulnerability:** **Chennai leads in crisis events (70 counts)**[cite: 1], heavily impacted by import transit lags from South American and Middle Eastern routes[cite: 1].
+* **Commercial Exposure:** Commercial sectors face more frequent delays, causing severe budgeting instability during peak window periods[cite: 1].
+* **Import Partner Spread:** Qatar remains the most cost-effective baseline partner (avg ₹1,109), whereas Argentina imports introduce maximum lead-time volatility and higher unit costs[cite: 1].
+
+---
+
+## 🎯 3-Pillar Strategic Solution
 
 
-📌 Executive Summary
-During recent market shifts, regional LPG supply chains experienced severe disruption, pushing peak cylinder prices to ₹1,398 in major metropolitan areas. This project analyzes 15,000+ transactional supply log entries to pinpoint the root causes of regional supply delays and evaluate mitigation strategies. 
-Key FindingsSupply Instability: Over 35% of tracked supply instances experienced delays (27%) or critical shortages (9%). 
-Regional Vulnerability: Chennai led the crisis count with 70 distinct bottled supply bottleneck events, followed by Mumbai and Patna with 30 events each.  
-Price Volatility: Critical alerts drove consumer prices 15–20% above regional baselines, ranging from a floor price of ₹863 to peaks of ₹1,398.  
-Import Dependency: Logistics lags from primary import partners (Qatar, Argentina, USA) created ripple effects in domestic refill availability. 
-🛠️ Data Architecture & MethodologyThe underlying dataset models 50,000 supply chain instances scaled from real-world regional log metrics across domestic and commercial sectors. 
-
-Plaintext📁 Data Pipeline & Analytics Architecture
-├── 📄 Data Ingestion (Power Query / CSV Logs)
-├── 🔄 Data Transformation & Normalization (50k Rows)
-├── 🧮 KPI Calculations (SUMIFS, XLOOKUP, Dynamic Arrays)
-├── 📊 Pivot Tables & Scenario Modeling
-└── 📈 Dynamic Excel Executive Dashboard
-
-
-Key Metrics TrackedMetric FieldDescriptionSource MappingRegionMajor hub distribution points (Chennai, Mumbai, Delhi, etc.)   Geographical logsCylinder TypeCommercial vs. Domestic supply categories   Market segmentationStatusNormal, Delayed, or Shortage   Operational alert levelImport OriginQatar, Argentina, USA   Global supply partnersPrice (₹)Final consumer price per cylinder   Market transaction rates💡 Proposed Solution: 3-Pillar Stabilization FrameworkTo eliminate critical shortages and limit price volatility, the analysis proposes three core operational pivots:   Diversified Buffer Stocks: Expand localized storage capacity in high-risk hubs (Chennai & Mumbai) to absorb import delays.   Price Capping & Stabilization Funds: Deploy alert-triggered price shields to limit consumer cost spikes during emergency windows.   Import Source Optimization: Prioritize primary imports from lower-cost partners (Qatar) while utilizing high-speed routes (USA) strictly for emergency backstops.  
-🎯 Strategic Goals 
-  • Crisis Alerts: High      ───►  • Reduction of Chennai Crisis Count by 50%[cite: 1]
-  • Avg Price: High Vol.     ───►  • Market Price Stabilized at/below ₹1,100[cite: 1]
-  • Critical Status Alerts   ───►  • Reduced to 0 by Q3 2026[cite: 1]
-  
-## 🔑 Key Takeaways: 
-* **Severe Operational Disruption:** Over **35% of tracked supply instances** face severe delays (27%) or critical shortages (9%)[cite: 1], driving consumer price spikes up to **₹1,398 per cylinder**[cite: 1].
-* **Regional Bottlenecks:** Vulnerability is concentrated geographically, with **Chennai leading in crisis counts (70 events)**, followed by **Mumbai and Patna (30 events each)**[cite: 1].
-* **Root Cause Lags:** Volatility stems directly from global import timing mismatches—primarily from high-cost/delayed import partners like Argentina and Qatar—causing localized stockouts[cite: 1].
-* **Actionable Solution:** Achieving market stability requires expanding regional buffer storage in peak-crisis hubs, deploying alert-based price capping mechanisms, and prioritizing lower-cost import channels (Qatar) over high-cost emergency backstops. 
+       ┌────────────────────────────────────────────────────────┐
+       │              3-PILLAR STABILIZATION MODEL              │
+       └───────────────────────────┬────────────────────────────┘
+                                   │
+   ┌───────────────────────────────┼───────────────────────────────┐
+   ▼                               ▼                               ▼
+1. DIVERSIFIED BUFFERS         2. PRICE SHIELDS             3. SOURCE OPTIMIZATION
+   • Expand regional storage      • Implement price caps       • Prioritize Qatar baseline
+     in Chennai & Mumbai            during Shortage alerts       • Use USA as high-speed
+   • Absorb import lags           • Stabilize consumer costs      emergency backup
